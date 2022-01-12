@@ -1,0 +1,14 @@
+{
+  "name": "viewui-doc-offline",
+  "version": "1.0.0",
+  "description": "生成离线版 iviewUI 官方文档",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": [
+    "node",
+    "ViewUI"
+  ],
+  "author": "集成显卡/0604hx",
+  "license": "ISC"
+}
