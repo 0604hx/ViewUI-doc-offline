@@ -13,7 +13,7 @@
 
 <div align=center>
 
-## 功能 🎉
+## 功能 / FEATURE 🎉
 
 </div>
 
@@ -23,7 +23,7 @@
 
 <div align=center>
 
-## 使用方法 📖
+## 使用方法 / HOW-TO-USE 📖
 
 </div>
 
@@ -31,7 +31,7 @@
 > 根据实际情况进行填写
 
 ```javascript
-let PATH        = "/docs/iview/"                                    //本地浏览的路径，如果是根目录部署，可以填写 空 或者 /
+let PATH        = "/docs/iview/"                                    //本地浏览的子路径
 let HOST        = "https://file.iviewui.com/dist/"                  //iview 资源地址
 let DIR         = "dist"                                            //下载内容保存目录
 let CHUNK_REG   = /n.e\((\d+)\)/g                                   //子模块匹配正则表达式
@@ -43,6 +43,12 @@ let MEDIA_REG   = /\w{32}\.(png|svg|jpg|jpeg|gif|woff|woff2|ttf)/g  //图片、�
 
 ```shell
 node index.js
+
+# 结果请在 dist 目录查看
 ```
 
-### 3. 将下载内容部署到内网，Enjoy! 😄
+### 3. `[可选]`删除多余信息
+
+`index.html` 文件包含`iframe`及百度、googble 统计代码，建议删除。
+
+### 4. 将下载内容部署到内网，Enjoy! 😄 
